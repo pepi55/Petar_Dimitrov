@@ -17,12 +17,12 @@ class CustomSprite: SKSpriteNode {
 class GameScene: SKScene {
 	//Row locations from L to R
 	let rowLocations = [
-		//[CGPoint(x: 210, y: 530), CGPoint(x: 0, y: 520)],			//ROW 1
-		[CGPoint(x: 400, y: 530), CGPoint(x: 0, y: 340)],				//ROW 2
-		[CGPoint(x: 460, y: 530), CGPoint(x: 85, y: 0)],				//ROW 3
-		[CGPoint(x: 540, y: 530), CGPoint(x: 920, y: 0)],				//ROW 4
-		[CGPoint(x: 615, y: 530), CGPoint(x: 1024, y: 345)],		//ROW 5
-		//[CGPoint(x: 790, y: 530), CGPoint(x: 1024, y: 520)]		//ROW 6
+		//[CGPoint(x: 210, y: 530), CGPoint(x: 0, y: 520)], //ROW 1
+		[CGPoint(x: 400, y: 530), CGPoint(x: 0, y: 340)], //ROW 2
+		[CGPoint(x: 460, y: 530), CGPoint(x: 85, y: 0)], //ROW 3
+		[CGPoint(x: 540, y: 530), CGPoint(x: 920, y: 0)], //ROW 4
+		[CGPoint(x: 615, y: 530), CGPoint(x: 1024, y: 345)], //ROW 5
+		//[CGPoint(x: 790, y: 530), CGPoint(x: 1024, y: 520)] //ROW 6
 	]
 
 	let motionManager = CMMotionManager()
@@ -166,11 +166,7 @@ class GameScene: SKScene {
 						}
 					}
 				})
-			} else {
-				//println("Gyro si actieve urredy")
 			}
-		} else {
-			//println("Gyro si niet availablu")
 		}
 	}
 
